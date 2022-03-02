@@ -1,0 +1,205 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800|Raleway:400,200,100,300,500,600,700,800,900);
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+background:#27242b;
+width: 100%;
+height: auto;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+nav .lien a {
+    padding-left: 40px;
+    text-decoration: none;
+    color:#fff;
+}
+nav .get a {
+    color: aqua;
+}
+header .p1 {
+    text-align: center;
+    justify-content: center;
+}
+.para {
+    color: white;
+}
+.new {
+    color: teal;
+}
+button {
+    padding: 1rem 4rem;
+    background: cyan;
+    border-radius: 50px;
+    border: none;
+    color: white;
+}
+section .social-media {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section .social-media img {
+    padding-left: 20px;
+}
+.option {
+    color: teal;
+    text-align: center;
+    justify-content: center;
+}
+.laptop {
+    margin-bottom: 10%;
+    margin-top: 30px;
+}
+section .partie2 {
+background: url(/assets/img/map_bg.png);
+}
+.para01{
+    margin: 0 auto;
+    max-width: 720px;
+    padding: 10px 0;
+    text-align: center;
+}
+span {
+    font-size: 2rem;
+}
+.item {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 25%;
+    margin-left: 25%;
+}
+.awesomeness {
+    margin: 0;
+}
+.item01 .icon {
+   display: flex;
+   margin: 0 auto;
+   max-width: 620px;
+}
+.item02 {
+    margin: 0 auto;
+    width: 230px;
+    height: 300px;
+    background-size: 100%;
+}
+.item01 span {
+    font-size: 2rem;
+}
+.phone {
+    width: 180px;
+    height: 310px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(/assets/img/image_190px_1.png);
+    background-size: 180px;
+    background-repeat: no-repeat;
+    filter: invert(1);
+
+}
+.item03 .icon{
+    display: flex;
+    margin: 0 auto;
+    max-width: 620px;
+}
+.item03 p {
+    text-align: right;
+}
+.item03 .awesomeness {
+    margin-left: 100px;
+}
+.item03 span {
+    font-size: 2rem;
+}
+section .partie3 {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    background-color: #27242b;
+    justify-content: center;
+    align-items: center;
+}
+.johndo {
+    color: aqua;
+}
+.avatar {
+    filter: invert(1);
+}
+.para02{
+    color: white;
+}
+section .partie4 {
+    background-color: beige;
+    color: black;
+}
+section #Thebest p {
+    padding-left: 60px;
+}
+section .partie4 .screenshoots {
+    display: flex;
+    justify-content: space-around;
+}
+
+section .partie4 .screenshoots .Screenshoot p {
+    text-align: start;
+}
+
+section.partie5 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+section.partie5 .image-laptop {
+    display: flex;
+}
+section.partie5 .image-phone {
+    display: flex;
+    flex-direction: row-reverse;
+}
+section.partie6 {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: beige;
+    align-items: center;
+    justify-content: space-around;
+}
+
+section.partie6 .image-sayna-noir {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+section.partie6 .image-sayna-noir img {
+    width: 30vw;
+}
+section.partie6 .info {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+section.partie6 .contact {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+footer {
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    width: 100%;
+    align-items: center;
+}
+
+
+
