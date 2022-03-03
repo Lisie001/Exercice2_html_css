@@ -12,6 +12,7 @@ height: auto;
 nav{
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
     align-items: center;
     padding: 10px;
 }
@@ -199,6 +200,30 @@ footer {
     height: 100px;
     width: 100%;
     align-items: center;
+}
+
+@media screen and (max-width: 520px){
+   section .partie4   .screenshoots{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .item {
+        flex-wrap: wrap;
+    }
+    .partie5{
+        flex-wrap: wrap;
+        display: flex;
+    }
+    .partie6{
+        flex-wrap: wrap;
+    }
+    .lien{
+        flex-wrap: wrap;
+    }
+    .logo{
+        flex-wrap: wrap;
+        display: flex;
+    }
 }
 
 
